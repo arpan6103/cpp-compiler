@@ -43,10 +43,10 @@ Prerequisites:
 To Compile:
 * Open terminal
 * Go into the project folder, eg: cd desktop/compiler
-* Now compile using "g++: g++ -std=c++11 zmain.cpp lexer.cpp parser.cpp ir.cpp assembly.cpp -o compiler"
+* Now compile using g++: "g++ -std=c++11 zmain.cpp lexer.cpp parser.cpp ir.cpp assembly.cpp -o compiler"
 To run:
 * Prepare your source code in the zz.txt file
-* write "./compiler" in the terminal.
+* Run the Executable file by "./compiler" in the terminal.
 The program will save the assembly code in the assembly.s and will print the assembly code in the console.
 
 To further run the assembly code in the assembly.s:
